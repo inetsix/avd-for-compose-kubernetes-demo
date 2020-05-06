@@ -1,7 +1,8 @@
-![](https://img.shields.io/badge/Arista-CVP%20Automation-blue) ![](https://img.shields.io/badge/Arista-EOS%20Automation-blue) ![Code Quality](https://github.com/titom73/ansible-avd-cloudvision-demo/workflows/Code%20Quality/badge.svg) ![Ansible Code Execution](https://github.com/titom73/ansible-avd-cloudvision-demo/workflows/Ansible%20Code%20Execution/badge.svg?branch=master) ![GitHub](https://img.shields.io/github/license/titom73/ansible-avd-cloudvision-demo)
+![](https://img.shields.io/badge/Arista-CVP%20Automation-blue) ![](https://img.shields.io/badge/Arista-EOS%20Automation-blue)
+
 # Arista Validated Design with CloudVision deployment
 
-Content mirrored in [Aristanetworks/netdevops-examples](https://github.com/aristanetworks/netdevops-examples) repository.
+__Disclaimer__: This repository should be used only in conjunction with [demo-avd-compose-k8s](https://github.com/titom73/demo-avd-compose-k8s) repository as a worker for [__docker-compose__](https://docs.docker.com/compose/) or [kubernetes](https://kubernetes.io/) to automate [Arista Validated Design](https://github.com/aristanetworks/ansible-avd) deployment.
 
 ## About
 
@@ -15,43 +16,7 @@ It helps to demonstrate how to bring up an Arista EVPN/VXLAN Fabric from the fir
 
 ## Getting Started
 
-For detailled setup and demo, please refer to [ressources](#ressources) below.
-
-```shell
-# Clone repository
-$ git clone -https://github.com/titom73/ansible-avd-cloudvision-demo.git
-
-# Move to folder
-$ cd ansible-avd-cloudvision-demo
-
-# Install python requirements
-$ pip install -r requirements.txt
-
-# Install required ansible collections
-$ make install
-
-# Edit ZTP information
-$ vim dc1-ztp-configuration.yml
-
-# Provision Zero Touch Provisioning server
-$ ansible-playbook dc1-ztp-configuration.yml
-
-# Power Up devices
-# Wait for devices to be available in CVP
-
-# Run Ansible playbook 
-$ ansible-playbook dc1-fabric-deploy-cvp.yml
-```
-
-> Getting started does not include management IP configuration. For complete installation, please refer to [installation guide](INSTALLATION.md) to configure correct environment.
-
-## Ressources
-
-- Ansible [Arista Validated Design](https://github.com/aristanetworks/ansible-avd) repository.
-- [Ansible CloudVision Collection](https://github.com/aristanetworks/ansible-cvp) repository.
-- [How to install](INSTALLATION.md) demo environment.
-- [Detailled demo script](DEMO.md).
-- [Detailled demo script with docker](data/DEMO_DOCKER.md)
+Please refer to [demo-avd-compose-k8s](https://github.com/titom73/demo-avd-compose-k8s) repository to see how to run this content
 
 ## License
 
