@@ -11,7 +11,7 @@ theme:
 #     text: Ubuntu
 #     code: Ubuntu Mono
   extra_css:
-    - medias/stylesheet.css
+    - stylesheet.css
 copyright: Copyright &copy; 2019 - 2020 Arista Networks
 repo_name: AVD Collection
 repo_url: https://github.com/aristanetworks/ansible-avd
