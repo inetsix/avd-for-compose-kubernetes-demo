@@ -4,17 +4,17 @@ site_description: Arista Cloudvision collection's documentation
 docs_dir: documentation/
 # site_favicon: docs/_media/favicon.ico
 theme:
-  name: lumen
+  name: readthedocs
   features:
     - instant
-  font:
-    text: Ubuntu
-    code: Ubuntu Mono
+#   font:
+#     text: Ubuntu
+#     code: Ubuntu Mono
 # extra_css:
 #   - docs/stylesheets/extra.css
 copyright: Copyright &copy; 2019 - 2020 Arista Networks
 repo_name: Github
-repo_url: https://github.com/aristanetworks/ansible-cvp
+repo_url: https://github.com/aristanetworks/ansible-avd
 use_directory_urls: true
 nav:
   - Fabric overview:
