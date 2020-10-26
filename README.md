@@ -4,6 +4,8 @@
 
 __Disclaimer__: This repository should be used only in conjunction with [demo-avd-compose-k8s](https://github.com/titom73/demo-avd-compose-k8s) repository as a worker for [__docker-compose__](https://docs.docker.com/compose/) or [kubernetes](https://kubernetes.io/) to automate [Arista Validated Design](https://github.com/aristanetworks/ansible-avd) deployment.
 
+![](medias/avd-docker-k8s.png)
+
 ## About
 
 This example implement a basic __EVPN/VXLAN Fabric__ based on __[Arista Validated Design roles](https://github.com/aristanetworks/ansible-avd)__ with one layer of 2 spines and one layer of leafs (4 devices) using MLAG. Configuration deployment is not managed by eos EAPI, but through Arista CloudVision based on __[arista.cvp collection](https://github.com/aristanetworks/ansible-cvp/)__
