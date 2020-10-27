@@ -1,3 +1,5 @@
 # Arista Validated Design documentation
 
-__WORK IN PROGRESS__
+Demo AVD & CVP in Kubernetes environment.
+
+![](./avd-docker-k8s.png)
