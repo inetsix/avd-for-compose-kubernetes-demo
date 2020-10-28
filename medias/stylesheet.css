@@ -101,4 +101,11 @@
     background-color: var(--md-accent-bg-color);
     color: var(--md-default-fg-color--lighter)
   }
+  table:not([class]) th {
+    min-width: 5rem;
+    padding: .6rem .8rem;
+    color: var(--md-primary-fg-color);
+    vertical-align: top;
+    background-color: var(--md-accent-bg-color);
+  }
 }
