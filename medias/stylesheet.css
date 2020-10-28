@@ -106,6 +106,6 @@
     padding: .6rem .8rem;
     color: var(--md-primary-fg-color);
     vertical-align: top;
-    background-color: var(--md-accent-bg-color);
+    background-color: var(--md-primary-fg-color);
   }
 }
