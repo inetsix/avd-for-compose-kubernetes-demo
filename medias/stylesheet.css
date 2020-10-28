@@ -71,7 +71,7 @@
     padding: .6rem .8rem;
     color: var(--md-default-fg-color--lighter);
     vertical-align: top;
-    background-color: var(--md-accent-bg-color);
+    background-color: var(--md-accent-bg-color--light);
   }
   .md-typeset code {
     padding: 0 .2941176471em;
@@ -100,12 +100,5 @@
   .md-typeset .note > .admonition-title, .md-typeset .note > summary {
     background-color: var(--md-accent-bg-color);
     color: var(--md-default-fg-color--lighter)
-  }
-  table:not([class]) th {
-    min-width: 5rem;
-    padding: .6rem .8rem;
-    color: var(--md-primary-fg-color);
-    vertical-align: top;
-    background-color: red;
   }
 }
